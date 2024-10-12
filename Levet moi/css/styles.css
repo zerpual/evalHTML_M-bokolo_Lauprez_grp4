@@ -1,0 +1,132 @@
+
+
+body{
+    margin:0 auto;
+}
+/* tete de page */
+
+header.header{
+    display: flex;
+    align-items: center;
+}
+header.header img{
+    width: 150px;
+}
+section.top-page{
+    background: url('../image/IMG_8332.jpeg');
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+
+}
+
+/* page de bienvenue (landing page) */
+
+.landing-page{
+    padding: 20px 50px
+}
+.big-title{
+   font-size: 80px;
+   font-weight: 100;
+   color: white;
+}
+
+.scroll-down{
+    color: white;
+    text-decoration: none;
+    position:absolute;
+    bottom: 160px;
+}
+/* menu de navigation */
+
+nav.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+    color: white;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+/* best sells */
+
+.section-title{
+    font-size: 50px;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-title::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(16, 9, 9);
+    width: 50px;
+    height: 7px
+    bottom: 0;
+}
+
+
+.best-vêtements{
+    background-color: red;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap; 
+    
+}
+
+.T-shirt-box{
+    background-size: cover;
+    background-position: center;
+}
+
+.no-grid{
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+
+.T-shirt1{
+    background-image: url(../image/IMG_6933.jpg);
+}
+.T-shirt2{
+    background-image: url(../image/IMG_6935.jpg);
+}
+.T-shirt3{
+    background-image: url(../image/IMG_6923.jpg);
+}
+.T-shirt4{
+    background-image: url(../image/IMG_6931.jpg);
+}
+/* nos produits */
+
+.section-title{
+    font-size: 50px;
+    font-weight: 100;
+    position: relative;
+    color: black;
+}
+
+.all-t-shirt{
+    margin: 100px;
+}
+
+/* pied de page */
+
+footer{
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+}
+
+footer a.cgv{
+    text-decoration: none;
+    color: black;
+}
+
+
+
